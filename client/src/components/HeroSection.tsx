@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Mail } from "lucide-react";
+import profileImage from "@assets/4059 copy_1760529995489.jpg";
 
 export default function HeroSection() {
   const scrollToSection = (id: string) => {
@@ -86,33 +87,15 @@ export default function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            <div className="relative w-full max-w-md aspect-square">
+            <div className="relative w-full max-w-md">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/20 to-chart-3/20 rounded-full blur-3xl" />
-              <div className="relative flex items-center justify-center h-full">
-                <svg
-                  className="w-full h-full"
-                  viewBox="0 0 400 400"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="200" cy="200" r="150" fill="url(#gradient1)" opacity="0.3" />
-                  <circle cx="200" cy="200" r="120" fill="url(#gradient2)" opacity="0.4" />
-                  <circle cx="200" cy="200" r="90" fill="url(#gradient3)" opacity="0.5" />
-                  <defs>
-                    <radialGradient id="gradient1">
-                      <stop offset="0%" stopColor="hsl(var(--primary))" />
-                      <stop offset="100%" stopColor="hsl(var(--accent))" />
-                    </radialGradient>
-                    <radialGradient id="gradient2">
-                      <stop offset="0%" stopColor="hsl(var(--accent))" />
-                      <stop offset="100%" stopColor="hsl(var(--chart-3))" />
-                    </radialGradient>
-                    <radialGradient id="gradient3">
-                      <stop offset="0%" stopColor="hsl(var(--chart-3))" />
-                      <stop offset="100%" stopColor="hsl(var(--primary))" />
-                    </radialGradient>
-                  </defs>
-                </svg>
+              <div className="relative">
+                <img
+                  src={profileImage}
+                  alt="Priyadharshini N"
+                  className="w-full h-auto rounded-2xl shadow-2xl border-4 border-card"
+                  data-testid="img-profile"
+                />
               </div>
             </div>
           </motion.div>
