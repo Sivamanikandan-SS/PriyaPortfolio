@@ -1,0 +1,90 @@
+Create a single-page React portfolio website for Priyadharshini N, a Computer Science Engineering student.
+The design should be modern, clean, and responsive using Tailwind CSS.
+Include smooth scroll and sections for:
+
+Header/Navbar
+
+Name: Priyadharshini N
+
+Navigation links: Home, About, Education, Projects, Internship, Achievements, Skills, Contact
+
+Hero Section
+
+Greeting: “Hi, I’m Priyadharshini 👋”
+
+Subtitle: “Aspiring Software Engineer & Full Stack Developer”
+
+Buttons: “View Projects” and “Contact Me”
+
+About Section
+
+Objective:
+“I seek to leverage my technical expertise to develop innovative IT solutions that create real value.
+I aspire to grow in a dynamic environment where I can learn, adapt, and contribute effectively.
+I aim to transform my skills into long-term success by evolving as a versatile professional with entrepreneurial aspirations.”
+
+Education Section
+
+B.E. Computer Science, Dr. N.G.P. Institute of Technology — CGPA: 8.6
+
+HSC, S.A.B. Matric Hr.Sec.School — 90.6%
+
+SSLC, Veena Vidhyalaya Matric School — 99.2%
+
+Projects Section
+
+Plant Health Guardian (2024):
+AI-powered platform for analyzing plant diseases and providing treatment recommendations.
+Built using React, Django, TensorFlow, Firebase, and OpenAI API.
+
+Flavour Fusion (2024):
+Smart meal preparation platform with AI ingredient recognition and personalized recipes.
+Built using React, Django, TensorFlow, Firebase, and OpenAI API.
+
+Paperless Office (2024):
+Centralized application for digitizing college documentation.
+Built using Django, Firebase, SQLite3.
+
+Internship Section
+
+EpicX Software Company, Coimbatore (Full Stack Development Intern – 15 days)
+Worked on a real-time matrimony website using React.js, Node.js, and MongoDB.
+Implemented authentication, profile management, and matchmaking functionality.
+
+Achievements Section
+
+Patent: “Wireless Touch Laser Presenter” — Indian Patent Office
+
+Elite Certificate in Cloud Computing (77%) — NPTEL
+
+Winner: Kalam 2023, Karpagam College of Engineering
+
+Participant: Fiestaa’24 and Hackfest’24, KPR Institute of Engineering and Technology
+
+Skills Section
+
+Web Development: React.js, Node.js
+
+Databases: MongoDB
+
+Programming: Java, C, Python
+
+Languages: English, Tamil, Kannada
+
+Contact Section
+
+📞 7092902726
+
+📧 priyadharshinin562@gmail.com
+
+🌍 Coimbatore, Tamil Nadu
+
+🔗 LinkedIn
+
+💻 GitHub
+
+Add a footer that says:
+“© 2025 Priyadharshini N — Crafted with ❤️ using React and TailwindCSS.”
+
+Use smooth scroll navigation and light pastel colors.
+Add subtle animations using Framer Motion.
