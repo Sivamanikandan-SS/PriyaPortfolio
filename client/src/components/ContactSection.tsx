@@ -33,7 +33,7 @@ const socialLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/priyadharshini-n-30b316287",
     color: "text-chart-1",
   },
   {
